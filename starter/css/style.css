@@ -1,0 +1,171 @@
+:root { 
+  --dark: black;
+  --light: white;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: var(--dark);
+  color: var(--light);
+  font-size: 1rem;  
+  text-align: center;
+  }
+
+.navbarbackground {
+  display: grid;
+  height: 100px;
+  margin: none;
+  padding: none;
+  border: none;
+}
+
+.navbar li {
+  background-color: pink;
+  color: var(--light);
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr
+  grid-template-areas: 
+      "Home About Portfolio Contact";
+
+
+
+  .home {
+    grid-area: home;
+  }
+  .about {
+    grid-area: about;
+  }
+  .portfolio {
+    grid-area: portfolio;
+  }
+  .contact {
+    grid-area: contact;
+  }*/
+} 
+
+  #Developer_Logo {
+    max-height: 100px;
+    float:left;
+    z-index: 0;
+  }
+
+.ul {
+  display: flex;
+  float: right;
+  width: 100%;
+  font-size: 30px;
+}
+
+.navbar li:hover {
+  cursor:pointer;
+  opacity: 50%;
+  }
+
+.header {
+  display: flexbox;
+  text-align: center;
+}
+
+img {
+  max-width: 500px;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px;
+}
+
+#hero-banner {
+  text-align: center;
+}
+
+main {
+    
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  display: flex; 
+}
+
+.picture {
+  align-items: center;}
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+      "project1 project2"
+      "project3 project4"
+}
+
+.showcaseproject {
+align-items: center;
+}
+.project1 {
+  grid-area: project1;
+}
+.project2 {
+  grid-area: project2;
+}
+.project3 {
+  grid-area: project3;
+}
+.project4 {
+  grid-area: project4;
+}
+
+.button {
+  border: 10px solid white;
+  text-align: center;
+  border-radius: 3%;
+}
+
+.button:hover {
+  background-color: var(--light);
+  color: var(--dark);
+  cursor:pointer;
+  opacity: 50%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  font-size: 1rem;  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+  font-size: 2rem;
+  .picture: max-width: 100%;  
+}
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (max-width: 1200px) {
+  font-size: 3rem;  
+  .picture: max-width: 100%;  
+}
+
+
+
